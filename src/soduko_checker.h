@@ -1,13 +1,11 @@
 #ifndef SC_H_
 #define SC_H_
 
-
 /*=========================================================================
   Constants and definitions:
 ==========================================================================*/
+
 #define MAX_SIZE 25
-
-
 
 void printOpenMessageForSodokoSize();
 
@@ -32,6 +30,5 @@ int check_cols(int sodoko[MAX_SIZE][MAX_SIZE], int n);
 int check_rows(int sodoko[MAX_SIZE][MAX_SIZE], int n);
 
 int check_all_squares(int sodoko[MAX_SIZE][MAX_SIZE], int n);
-
 
 #endif /*SC_H_ */
